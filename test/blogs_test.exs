@@ -14,47 +14,30 @@ defmodule BlogsTest do
 		end
 	end
 
-  describe "find" do
-    it "finds a blog by its name" do
-      use_cassette "find_blog_name" do
-        followers = Blogs.find("okayplayer") |> Map.get("followers")
-        assert followers == 1208
-      end
-    end
-
-    it "finds a blog by its id" do
-      use_cassette "find_blog_id" do
-        followers = Blogs.find(16684) |> Map.get("followers")
-        assert followers == 1208
-      end
-    end
-  end
-
   describe "subcollection" do
     it "returns a blog data as a subcollection" do
       use_cassette "blog_tracks" do
-        first_track = Blogs.find("okayplayer")
-                      |> Blogs.subcollection("tracks")
-                      |> List.first
-        last_track = Blogs.find("okayplayer")
-                      |> Blogs.subcollection("tracks")
-                      |> List.last
-        assert first_track["artist"] == "Kenneth Whalum"
-        assert last_track["artist"] == "Blu & Fa†e"
-      end
-    end
-
-    it "returns subset of data for an specific blog id" do
-      use_cassette "blog_id_tracks" do
+        first_track = Blogs.subcollection(16684, "tracks") |> List.first
         last_track = Blogs.subcollection(16684, "tracks") |> List.last
-        assert last_track["artist"], "Blu & Fa†e"
+
+        assert first_track["artist"] == "YG feat. Drake"
+        assert last_track["artist"] == "IAMNOBODI"
       end
     end
   end
 
   describe "obtain" do
+    it "finds a blog by its id" do
+      use_cassette "find_blog_id" do
+        followers = Blogs.obtain(16684) |> Map.get("followers")
+        assert followers == 1208
+      end
+    end
+
     it "returns metadata from the blogs path" do
-      assert Blogs.obtain("count") == 712
+      use_cassette "blogs_metadata" do
+        assert Blogs.obtain("count") == 682
+      end
     end
   end
 end
