@@ -1,0 +1,31 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.hypem.com/v2/artists"
+    },
+    "response": {
+      "body": "[{\"artist\":\"nxworries\",\"cnt\":19,\"thumb_url_artist\":\"http:\\/\\/static-ak.hypem.net\\/resizer\\/thumbs_orig\\/71\\/3012209.jpg\",\"rank\":1},{\"artist\":\"tycho\",\"cnt\":18,\"thumb_url_artist\":\"http:\\/\\/static-ak.hypem.net\\/resizer\\/thumbs_orig\\/b2\\/2544306.jpg\",\"rank\":2},{\"artist\":\"jahkoy\",\"cnt\":12,\"thumb_url_artist\":\"http:\\/\\/static-ak.hypem.net\\/resizer\\/thumbs_orig\\/64\\/3010660.jpg\",\"rank\":3},{\"artist\":\"skott\",\"cnt\":11,\"thumb_url_artist\":\"http:\\/\\/static-ak.hypem.net\\/resizer\\/thumbs_orig\\/3\\/2953475.jpg\",\"rank\":4},{\"artist\":\"la sera\",\"cnt\":11,\"thumb_url_artist\":\"http:\\/\\/static-ak.hypem.net\\/resizer\\/thumbs_orig\\/2d\\/2421293.jpg\",\"rank\":5},{\"artist\":\"high tide 15:47\",\"cnt\":11,\"thumb_url_artist\":\"http:\\/\\/static-ak.hypem.net\\/resizer\\/thumbs_orig\\/d6\\/2611926.jpg\",\"rank\":6},{\"artist\":\"wiz khalifa\",\"cnt\":10,\"thumb_url_artist\":\"http:\\/\\/static-ak.hypem.net\\/resizer\\/thumbs_orig\\/7b\\/3012475.jpg\",\"rank\":7},{\"artist\":\"jenny hval\",\"cnt\":10,\"thumb_url_artist\":\"http:\\/\\/static-ak.hypem.net\\/resizer\\/thumbs_orig\\/f9\\/2644473.jpg\",\"rank\":8},{\"artist\":\"shamir - tryna survive [for\",\"cnt\":9,\"thumb_url_artist\":\"http:\\/\\/static-ak.hypem.net\\/resizer\\/thumbs_orig\\/60\\/3012704.jpg\",\"rank\":9},{\"artist\":\"seekae\",\"cnt\":9,\"thumb_url_artist\":\"http:\\/\\/static-ak.hypem.net\\/resizer\\/thumbs_orig\\/bd\\/2677437.jpg\",\"rank\":10}]",
+      "headers": {
+        "Server": "nginx/1.10.0",
+        "Date": "Tue, 20 Sep 2016 23:25:39 GMT",
+        "Content-Type": "application/json; charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Keep-Alive": "timeout=10",
+        "Set-Cookie": "AUTH=03%3A821606ec575f82ff621f224f7ea01b06%3A1474413939%3A3049677339%3A18-EC; expires=Thu, 16-Sep-2032 23:25:39 GMT; Max-Age=504576000; path=/; domain=hypem.com",
+        "X-Powered-By": "Fat-Free Framework (http://fatfree.sourceforge.net)",
+        "Pragma": "no-cache",
+        "Cache-Control": "no-cache, must-revalidate",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "*"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

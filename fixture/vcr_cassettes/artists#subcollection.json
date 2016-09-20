@@ -1,0 +1,31 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.hypem.com/v2/artists/nxworries/tracks"
+    },
+    "response": {
+      "body": "[{\"itemid\":\"2ef2e\",\"artist\":\"Nxworries\",\"title\":\"Anderson Paak & Knxwledge - Link Up\",\"dateposted\":1474389341,\"siteid\":442,\"sitename\":\"nialler9\",\"posturl\":\"http:\\/\\/nialler9.com\\/nxworries-anderson-paak-listen-lyk-dis\\/\",\"postid\":3013031,\"loved_count\":107,\"posted_count\":5,\"thumb_url\":\"http:\\/\\/static.hypem.net\\/thumbs_new\\/a7\\/3013031.jpg\",\"thumb_url_medium\":\"http:\\/\\/static.hypem.net\\/thumbs_new\\/a7\\/3013031_120.jpg\",\"thumb_url_large\":\"http:\\/\\/static.hypem.net\\/thumbs_new\\/a7\\/3013031_500.jpg\",\"time\":209,\"description\":\"2016\\u2019s best dudeAnderson .Paak continues his winning streak with more new music from his collaboration with Knxwledge as NxWorries. The album called Yes Lawd!, (a popular Paak phrase) is out in October on Stones Throw. \\u2018Lyk Dis\\u2019 is built on a warm beat pr\",\"itunes_link\":\"http:\\/\\/hypem.com\\/go\\/itunes_search\\/Nxworries\"},{\"itemid\":\"2j9gb\",\"artist\":\"NxWorries\",\"title\":\"Anderson Paak & Knxwledge - Lyk Dis\",\"dateposted\":1474389338,\"siteid\":442,\"sitename\":\"nialler9\",\"posturl\":\"http:\\/\\/nialler9.com\\/nxworries-anderson-paak-listen-lyk-dis\\/\",\"postid\":3013031,\"loved_count\":142,\"posted_count\":19,\"thumb_url\":\"http:\\/\\/static.hypem.net\\/thumbs_new\\/a7\\/3013031.jpg\",\"thumb_url_medium\":\"http:\\/\\/static.hypem.net\\/thumbs_new\\/a7\\/3013031_120.jpg\",\"thumb_url_large\":\"http:\\/\\/static.hypem.net\\/thumbs_new\\/a7\\/3013031_500.jpg\",\"time\":151,\"description\":\"2016\\u2019s best dudeAnderson .Paak continues his winning streak with more new music from his collaboration with Knxwledge as NxWorries. The album called Yes Lawd!, (a popular Paak phrase) is out in October on Stones Throw. \\u2018Lyk Dis\\u2019 is built on a warm beat pr\",\"itunes_link\":\"http:\\/\\/hypem.com\\/go\\/itunes_search\\/NxWorries\"},{\"itemid\":\"29dva\",\"artist\":\"Nxworries\",\"title\":\"Anderson Paak & Knxwledge - Suede\",\"dateposted\":1450880493,\"siteid\":21869,\"sitename\":\"Getintothis\",\"posturl\":\"http:\\/\\/www.getintothis.co.uk\\/2015\\/12\\/getintothis-guestlist-selections-part-three-liverpool-bands-2015\\/\",\"postid\":2836539,\"loved_count\":386,\"posted_count\":15,\"thumb_url\":\"http:\\/\\/static.hypem.net\\/thumbs_new\\/3b\\/2836539.jpg\",\"thumb_url_medium\":\"http:\\/\\/static.hypem.net\\/thumbs_new\\/3b\\/2836539_120.jpg\",\"thumb_url_large\":\"http:\\/\\/static.hypem.net\\/thumbs_new\\/3b\\/2836539_320.jpg\",\"time\":178,\"description\":\"Liverpool\\u2019s leading lights reflect on 2015 in music From established greats to the future of Merseyside music, an array of Liverpool\\u2019s best and brightest bands pick out their personal peaks of the year, and give us their tips for what lies ahead. Another \",\"itunes_link\":\"http:\\/\\/hypem.com\\/go\\/itunes_search\\/Nxworries\"},{\"itemid\":\"2echq\",\"artist\":\"Nxworries\",\"title\":\"Anderson Paak & Knxwledge - Link Up (Beats 1 Radio Rip)\",\"dateposted\":1449130446,\"siteid\":19887,\"sitename\":\"WEUNDERGROUND\",\"posturl\":\"http:\\/\\/weunderground.net\\/nxworries-anderson-paak-knxwledge-%e2%80%8blink-up-suede-ep\\/\",\"postid\":2823882,\"loved_count\":87,\"posted_count\":9,\"thumb_url\":\"http:\\/\\/static.hypem.net\\/thumbs_new\\/ca\\/2823882.jpg\",\"thumb_url_medium\":\"http:\\/\\/static.hypem.net\\/thumbs_new\\/ca\\/2823882_120.jpg\",\"thumb_url_large\":\"http:\\/\\/static.hypem.net\\/thumbs_new\\/ca\\/2823882_320.jpg\",\"time\":306,\"description\":\"Album Preview R&B vocalist Anderson .Paak and producer Knxwledge are working together as NxWorries (pronounced \\u201cNo Worries\\u201d). Last Spring, they debuted with the single \\u201cSuede\\u201d which quickly found the ears of Dr. Dre. Anderson .Paak went on to record eight\",\"itunes_link\":\"http:\\/\\/hypem.com\\/go\\/itunes_search\\/Nxworries\"}]",
+      "headers": {
+        "Server": "nginx/1.10.0",
+        "Date": "Tue, 20 Sep 2016 23:26:00 GMT",
+        "Content-Type": "application/json; charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Keep-Alive": "timeout=10",
+        "Set-Cookie": "AUTH=03%3A215bf61b5c6349f76e9f4097fd1855c9%3A1474413960%3A3049677339%3A18-EC; expires=Thu, 16-Sep-2032 23:26:00 GMT; Max-Age=504576000; path=/; domain=hypem.com",
+        "X-Powered-By": "Fat-Free Framework (http://fatfree.sourceforge.net)",
+        "Pragma": "no-cache",
+        "Cache-Control": "no-cache, must-revalidate",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "*"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

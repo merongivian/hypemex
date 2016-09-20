@@ -1,0 +1,31 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.hypem.com/v2/blogs/count"
+    },
+    "response": {
+      "body": "682",
+      "headers": {
+        "Server": "nginx/1.10.0",
+        "Date": "Tue, 20 Sep 2016 22:18:20 GMT",
+        "Content-Type": "application/json; charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Keep-Alive": "timeout=10",
+        "Set-Cookie": "AUTH=03%3A1b0325e924fff1194f52729de64724f5%3A1474409900%3A3049677339%3A18-EC; expires=Thu, 16-Sep-2032 22:18:20 GMT; Max-Age=504576000; path=/; domain=hypem.com",
+        "X-Powered-By": "Fat-Free Framework (http://fatfree.sourceforge.net)",
+        "Pragma": "no-cache",
+        "Cache-Control": "no-cache, must-revalidate",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "*"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

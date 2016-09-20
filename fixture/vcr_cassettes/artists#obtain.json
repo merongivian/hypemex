@@ -6,18 +6,18 @@
       "method": "get",
       "options": [],
       "request_body": "",
-      "url": "https://api.hypem.com/v2/blogs/count"
+      "url": "https://api.hypem.com/v2/artists/nxworries"
     },
     "response": {
-      "body": "682",
+      "body": "{\"artist\":\"nxworries\",\"thumb_url_artist\":\"http:\\/\\/static-ak.hypem.net\\/resizer\\/thumbs_orig\\/71\\/3012209.jpg\"}",
       "headers": {
         "Server": "nginx/1.10.0",
-        "Date": "Tue, 20 Sep 2016 20:13:48 GMT",
+        "Date": "Tue, 20 Sep 2016 23:26:10 GMT",
         "Content-Type": "application/json; charset=UTF-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
         "Keep-Alive": "timeout=10",
-        "Set-Cookie": "AUTH=03%3A07a4419c6531882a6c231c6ed48205bb%3A1474402428%3A3049677339%3A18-EC; expires=Thu, 16-Sep-2032 20:13:48 GMT; Max-Age=504576000; path=/; domain=hypem.com",
+        "Set-Cookie": "AUTH=03%3A221621a3b3765ccc6f210b4d52184fe9%3A1474413970%3A3049677339%3A18-EC; expires=Thu, 16-Sep-2032 23:26:10 GMT; Max-Age=504576000; path=/; domain=hypem.com",
         "X-Powered-By": "Fat-Free Framework (http://fatfree.sourceforge.net)",
         "Pragma": "no-cache",
         "Cache-Control": "no-cache, must-revalidate",
